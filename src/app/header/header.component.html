@@ -18,7 +18,7 @@
     <a (click)="showPopup=!showPopup" routerLink="/" class="font-medium text-sm tracking-wide uppercase text-white inline-flex gap-1 relative">
       <span>ABOUT US</span>
       <img [class.rotate-180]="showPopup" class="transition-all" src="assets/arrow.svg" alt="Arrow">
-      <div [@flyInOut] *ngIf="showPopup" class="p-10 absolute top-10 max-w-80 right-0 flex-col flex gap-4 bg-primary">
+      <div [@flyInOut] *ngIf="showPopup" class="p-10 absolute top-10 max-w-80 right-0 flex-col flex gap-4 bg-primary lg:bg-opacity-0">
         <a href="/">Link1</a>
         <a href="/">Link1</a>
         <a href="/">Link1</a>
