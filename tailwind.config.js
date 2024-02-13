@@ -19,6 +19,9 @@ module.exports = {
         38: "2.375rem",
         60: "3.75rem",
       },
+      boxShadow: {
+        btn: '0 10px 20px 0 rgba(8, 12, 28, 0.23)'
+      },
       height: {
         60: "3.75rem",
         28: "1.75rem",
