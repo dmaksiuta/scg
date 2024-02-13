@@ -6,14 +6,18 @@
 html {
   font-size: 16px;
 }
+
 body {
-  background: #000000;
+  background: #1432B4;
   color: #fff;
   font-size: 16px;
 }
+
 .container {
   padding: 16px;
   height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  width: 100%;
 }

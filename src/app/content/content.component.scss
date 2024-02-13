@@ -1,6 +1,10 @@
 .drop {
   padding: 106px 65px 92px 65px;
   border-radius: 5px;
+
+  @media screen and (max-width: 992px) {
+    padding: 10px;
+  }
 }
 
 .drop-icon {

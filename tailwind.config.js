@@ -4,7 +4,7 @@ module.exports = {
   content: ["./src/**/*.{html,ts}"],
   theme: {
     colors: {
-      white: '#fff',
+      white: "#fff",
       primary: "#FF643C",
       active: "#1432B4",
       link: "#999",
@@ -30,10 +30,14 @@ module.exports = {
         30: "1.875rem",
       },
       translate: {
-        'center': '-50%'
-      }
+        center: "-50%",
+        menu: "-120%",
+      },
     },
     screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
       xl: "1145px",
     },
     container: {
