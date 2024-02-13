@@ -1,0 +1,32 @@
+.drop {
+  padding: 106px 65px 92px 65px;
+  border-radius: 5px;
+}
+
+.drop-icon {
+  width: 94px;
+  height: 94px;
+  box-shadow: 0 5px 10px 0 rgba(22, 37, 101, 0.23);
+
+  &::before,
+  &::after {
+    width: 44px;
+    height: 2px;
+  }
+
+  &::after {
+    width: 2px;
+    height: 44px;
+  }
+}
+
+
+
+
+.title {
+  max-width: 407px;
+}
+
+.desc {
+  max-width: 281px;
+}
