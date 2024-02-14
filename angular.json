@@ -41,6 +41,8 @@
               "src/favicon-32x32.png",
               "src/mstile-150x150.png",
               "src/browserconfig.xml",
+              "src/site.webmanifest",
+              "src/apple-touch-icon-precomposed.png",
               "src/safari-pinned-tab.svg"
             ],
             "styles": [
