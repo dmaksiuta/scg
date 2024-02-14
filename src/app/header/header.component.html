@@ -6,7 +6,7 @@
   <span *ngIf="menuIsActive" class="material-icons">close</span>
 </div>
 
-<div [@fadeInAnimation] [class.translate-x-menu]="!menuIsActive" class="bg-primary p-10 gap-8 translate-x-0 transition-all fixed top-0 left-0 w-9/12 h-full flex flex-col lg:flex-row lg:items-center lg:justify-between lg:w-full lg:h-fit lg:static lg:bg-opacity-0 z-10 lg:gap-0 lg:p-0 lg:translate-x-0">
+<div [@fadeInAnimation] [class.translate-x-menu]="!menuIsActive" class="bg-primary p-10 gap-8 translate-x-0 transition-all fixed top-0 left-0 w-9/12 h-full flex flex-col lg:flex-row lg:items-center lg:justify-between lg:w-full lg:h-fit lg:static lg:bg-opacity-0 z-10 lg:gap-2 lg:p-0 lg:translate-x-0">
   <div class="flex mt-auto items-center flex-col lg:flex-row gap-8 lg:gap-2 order-3 lg:order-1 lg:mt-0 pl-0 lg:pl-12">
     <a routerLink="/" class="transition-all text-sm text-white lg:text-link hover:text-white">FR</a>
     <a routerLink="/" class="transition-all text-sm text-white lg:text-gray underline hover:text-white">DE</a>
@@ -16,7 +16,7 @@
     <a routerLink="/" class="font-medium text-sm tracking-wide uppercase text-white">PRICING</a>
     <a routerLink="/" class="font-medium text-sm tracking-wide uppercase text-white">FEATURES</a>
     <a (click)="showPopup=!showPopup" routerLink="/" class="font-medium text-sm tracking-wide uppercase text-white inline-flex gap-1 relative">
-      <span>ABOUT US</span>
+      <span class="whitespace-nowrap">ABOUT US</span>
       <img [class.rotate-180]="showPopup" class="transition-all" src="assets/arrow.svg" alt="Arrow">
       <div [@flyInOut] *ngIf="showPopup" class="p-10 absolute top-10 max-w-80 right-0 flex-col flex gap-4 bg-primary lg:bg-opacity-0">
         <a href="/">Link1</a>
@@ -27,9 +27,9 @@
 
   </div>
   <div class="flex items-center flex-col lg:flex-row order-2 lg:order-3">
-    <a routerLink="/" class="inline-block font-medium text-sm uppercase text-white h-60 px-10 py-5">LOG IN</a>
+    <a routerLink="/" class="inline-block font-medium text-sm uppercase text-white h-60 px-10 py-5 whitespace-nowrap">LOG IN</a>
     <a routerLink="/" class="inline-flex font-medium text-sm uppercase text-white h-60  bg-active min-w-36 text-center shadow-btn">
-      <span class="px-10 py-5">SIGN UP</span>
+      <span class="px-10 py-5 whitespace-nowrap">SIGN UP</span>
       <div class="bg-primary size-60 items-center justify-center hidden lg:inline-flex">
         <img class="size-38" src="assets/lock.svg" alt="Lock">
       </div>
