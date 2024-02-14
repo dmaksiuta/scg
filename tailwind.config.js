@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     colors: {
       white: "#fff",
+      black: "#000",
       primary: "#FF643C",
       active: "#1432B4",
       link: "#999",
@@ -61,7 +62,7 @@ module.exports = {
       md: "768px",
       lg: "1024px",
       xl: "1145px",
-      '2xl': "1366px",
+      "2xl": "1366px",
     },
     container: {
       center: true,

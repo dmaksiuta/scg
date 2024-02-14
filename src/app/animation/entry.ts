@@ -6,7 +6,6 @@ export const flyInOutAnimation = [
 			style({
 				transform: 'translateY(-10px)',
 				opacity: 0,
-				height: '0',
 
 			}),
 			animate(400)
@@ -14,7 +13,6 @@ export const flyInOutAnimation = [
 		transition('* => void', [
 			animate(400, style({
 				opacity: 0,
-				height: '0',
 				transform: 'translateY(-10px)',
 			}))
 		])
