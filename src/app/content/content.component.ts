@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { fadeInAnimation } from '../animation/fade';
-import { slideInAnimation } from '../animation/slide';
+import { fadeInAnimation } from '../animation/fadeIn';
+import { slideInAnimation } from '../animation/slideIn';
 
 @Component({
-  selector: 'app-content',
+  selector: 'scg-content',
   templateUrl: './content.component.html',
   styleUrl: './content.component.scss',
   animations: [fadeInAnimation, slideInAnimation]

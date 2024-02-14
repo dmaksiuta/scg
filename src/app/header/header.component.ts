@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { fadeInAnimation } from '../animation/fade';
-import { slideInAnimation } from '../animation/slide';
-import { flyInOutAnimation } from '../animation/entry';
+import { fadeInAnimation } from '../animation/fadeIn';
+import { slideInAnimation } from '../animation/slideIn';
+import { flyInOutAnimation } from '../animation/flyInOut';
 
 
 @Component({
-  selector: 'app-header',
+  selector: 'scg-header',
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
   animations: [fadeInAnimation, slideInAnimation, flyInOutAnimation],

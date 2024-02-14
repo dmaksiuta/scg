@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { fadeInAnimation } from '../animation/fade';
+import { fadeInAnimation } from '../animation/fadeIn';
 
 @Component({
-  selector: 'app-footer',
+  selector: 'scg-footer',
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.scss',
   animations: [fadeInAnimation],
