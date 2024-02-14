@@ -20,17 +20,36 @@ module.exports = {
         60: "3.75rem",
       },
       boxShadow: {
-        btn: '0 10px 20px 0 rgba(8, 12, 28, 0.23)'
+        btn: "0 10px 20px 0 rgba(8, 12, 28, 0.23)",
+        drop: "0 5px 10px 0 rgba(22, 37, 101, 0.23)",
       },
       height: {
         60: "3.75rem",
         28: "1.75rem",
+        114: "114%",
+        94: "5.875rem",
+        44: "2.75rem",
+        2: "0.125rem",
+      },
+      borderRadius: {
+        drop: "0.312rem",
       },
       width: {
         164: "10.25rem",
+        94: "5.875rem",
+        44: "2.75rem",
+        2: "0.125rem",
+      },
+      minWidth: {
+        120: "120%",
+      },
+      maxWidth: {
+        title: "25.43rem",
+        desc: "17.56rem",
       },
       padding: {
         30: "1.875rem",
+        drop: "6.625rem 4.06rem 5.75rem 4.06rem",
       },
       translate: {
         center: "-50%",
