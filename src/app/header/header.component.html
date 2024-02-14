@@ -1,5 +1,5 @@
 <a routerLink="/" [@fadeInAnimation] class="lg:flex-shrink-0 hover:scale-95 transition-all">
-  <img src="assets/logo.svg" alt="Swiss Cyber Gate">
+  <img width="164" height="28" src="assets/logo.svg" alt="Swiss Cyber Gate">
 </a>
 <div class="flex lg:hidden p-2 lg:p-6" (click)="menuIsActive=!menuIsActive">
   <span *ngIf="!menuIsActive" class="material-icons">menu</span>
@@ -19,7 +19,7 @@
     <a routerLink="/" class="font-medium text-sm tracking-wide uppercase text-white">FEATURES</a>
     <a (click)="showPopup=!showPopup" routerLink="/" class="font-medium text-sm tracking-wide uppercase text-white inline-flex gap-1 relative">
       <span class="whitespace-nowrap">ABOUT US</span>
-      <img [class.rotate-180]="showPopup" class="transition-all" src="assets/arrow.svg" alt="Arrow">
+      <img width="7" height="4" [class.rotate-180]="showPopup" class="transition-all" src="assets/arrow.svg" alt="Arrow">
       <div [@flyInOut] *ngIf="showPopup" class="shadow-btn p-10 absolute top-10 max-w-80 right-0 flex-col flex gap-4 bg-active lg:bg-opacity-50">
         <a href="/">Link1</a>
         <a href="/">Link1</a>
@@ -32,7 +32,7 @@
     <a routerLink="/" class="inline-flex font-medium text-sm uppercase text-white h-60  bg-active lg:min-w-36 text-center shadow-btn">
       <span class="px-10 py-5 whitespace-nowrap">SIGN UP</span>
       <div class="bg-primary size-60 items-center justify-center hidden lg:inline-flex">
-        <img class="size-38" src="assets/lock.svg" alt="Lock">
+        <img width="38" height="38" class="size-38" src="assets/lock.svg" alt="Lock">
       </div>
     </a>
   </div>
